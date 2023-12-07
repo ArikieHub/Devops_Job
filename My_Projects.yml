@@ -1,0 +1,7 @@
+---
+- name: My-project
+  hosts: all
+  tasks: 
+   - name: print_below_command
+     debug:
+      msg: "My first project:)" 
